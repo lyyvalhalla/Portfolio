@@ -1,0 +1,367 @@
+body, html {
+    height: 100%}
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Andale Mono, sans-serif;
+    overflow: scroll;
+}
+a {
+    color: #fff;
+}
+#menu {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.about {
+    width: 1000px;
+    height: 600px;
+    cursor: default;
+}
+.about .about_info {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    font-size: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.about .cross_about {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 17px;
+    border-left: 500px;
+    color: rgba(0, 0, 0, .75);
+    cursor: pointer;
+    opacity: .7;
+}
+.about .cross_about:hover {
+    opacity: 1;
+    -webkit-transition: opacity 1000ms;
+    -moz-transition: opacity 1000ms;
+    -o-transition: opacity 1000ms;
+    transition: opacity 1000ms;
+}
+#cross {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 66px;
+    border-left: 500px;
+    color: rgba(0, 0, 0, .75);
+    cursor: pointer;
+    opacity: .5;
+}
+#cross:hover {
+    opacity: 1;
+    -webkit-transition: opacity 1000ms;
+    -moz-transition: opacity 1000ms;
+    -o-transition: opacity 1000ms;
+    transition: opacity 1000ms;
+}
+.tool {
+    position: absolute;
+    width: 1500px;
+    bottom: 200px;
+    left: 1800px;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.golink {
+    position: absolute;
+    width: 1500px;
+    bottom: 150px;
+    left: 1800px;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    opacity: .5;
+    cursor: pointer;
+}
+.golink:hover {
+    opacity: 1;
+    -webkit-transition: opacity 1000ms;
+    -moz-transition: opacity 1000ms;
+    -o-transition: opacity 1000ms;
+    transition: opacity 1000ms;
+}
+.concept {
+    position: absolute;
+    width: 1500px;
+    top: 660px;
+    left: 1800px;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.project1 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project1 .image1 {
+    position: absolute;
+    width: 1628px;
+    height: 900px;
+}
+.project1 .image1_2 {
+    position: absolute;
+    top: 900px;
+    width: 1628px;
+    height: 900px;
+}
+.project1 .title1 {
+    position: absolute;
+    top: 110px;
+    right: 200px;
+    font-size: 63px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.project2 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project2 .image2 {
+    position: absolute;
+    width: 1595px;
+    height: 900px;
+}
+.project2 .image2_2 {
+    position: absolute;
+    top: 900px;
+    width: 1595px;
+    height: 900px;
+}
+.project3 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project3 .video3_1 {
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+.project4 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project4 .concept4 {
+    position: absolute;
+    left: 1800px;
+    top: 1090px;
+    width: 1500px;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.project4 .image4_1 {
+    position: absolute;
+    left: 0;
+    top: 900px;
+}
+.project4 .video4 {
+    position: absolute;
+    left: 1600px;
+}
+.project5 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project5 .video5_1 {
+    position: absolute;
+    left: 0;
+    top: 900px;
+}
+.project6 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project6 .image6_3 {
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+.project6 .image6_4 {
+    position: absolute;
+    top: 900px;
+    left: 900px;
+}
+.project6 .concept6 {
+    position: absolute;
+    width: 1500px;
+    top: 660px;
+    left: 1950px;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.project7 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.project7 .image7_1 {
+    position: absolute;
+    width: 1200px;
+    height: 675;
+}
+.project7 .image7_2 {
+    position: absolute;
+    width: 1200px;
+    height: 675;
+    left: 1200px;
+}
+.project7 .image7_3 {
+    position: absolute;
+    width: 1200px;
+    height: 675;
+    top: 675px;
+    left: 0;
+}
+.project7 .image7_4 {
+    position: absolute;
+    width: 1200px;
+    height: 675;
+    top: 675px;
+    left: 1200px;
+}
+.project7 .concept7 {
+    position: absolute;
+    width: 1000px;
+    top: 510px;
+    left: 2500px;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.project8 {
+    width: 3600px;
+    height: 1800px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    border: 1px solid rgba(56, 56, 56, .25);
+    cursor: default;
+}
+.element {
+    width: 640px;
+    height: 640px;
+    background: rgba(0, 0, 0);
+    box-shadow: 0 0 3.5px rgba(0, 0, 0, 1);
+    border: 100px solid rgba(255, 255, 255);
+    text-align: center;
+    cursor: default;
+}
+.element:hover {
+    cursor: pointer;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 1.95);
+    transition: all .7s ease-in-out;
+}
+.element .number {
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    font-size: 33px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0;
+}
+.element:hover .number {
+    opacity: .8;
+    text-shadow: 0 0 23px #000;
+    -webkit-transition: opacity 1000ms;
+    -moz-transition: opacity 1000ms;
+    -o-transition: opacity 1000ms;
+    transition: opacity 1000ms;
+}
+.element .tools {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    font-size: 33px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0;
+    text-align: center;
+}
+.element:hover .tools {
+    opacity: 1;
+    text-shadow: 0 0 23px #000;
+    -webkit-transition: opacity 2300ms;
+    -moz-transition: opacity 2300ms;
+    -o-transition: opacity 2300ms;
+    transition: opacity 2300ms;
+}
+.element .symbol {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    font-size: 51px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0;
+}
+.element:hover .symbol {
+    opacity: 1;
+    top: 230px;
+    text-shadow: 0 0 23px #000;
+    -webkit-transition: opacity 2300ms, top 800ms;
+    -moz-transition: opacity 2300ms, top 800ms;
+    -o-transition: opacity 2300ms, top 800ms;
+    transition: opacity 2300ms, top 800ms;
+}
+.element .image {
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+.element:hover .image {
+    opacity: .8;
+    -webkit-transition: opacity 1000ms;
+    -moz-transition: opacity 1000ms;
+    -o-transition: opacity 1000ms;
+    transition: opacity 1000ms;
+}
+button {
+    color: #000;
+    background: 0 0;
+    outline: #000 solid 1px;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: .39;
+}
+button:hover {
+    opacity: 9;
+    -webkit-transition: opacity 1000ms, color 1000ms;
+    -moz-transition: opacity 1000ms, color 1000ms;
+    -o-transition: opacity 1000ms, color 1000ms;
+    transition: opacity 1000ms, color 1000ms;
+}
+button:active {
+    color: #000;
+}
